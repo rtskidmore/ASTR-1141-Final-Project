@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #06113C;
+    background-color: #EEEEEE;
+    margin: auto;
+    min-width: 885px;
+    max-width: 1200px;
+}
+
+/* Nav Bar */
+#nav-menu {
+    width: 100%;
+    position: fixed;
+    background-color: #DDDDDD;
+}
+
+.nav-link {
+    color: #06113C;
+    font-size: 120%;
+    margin-left: 5%;
+}
+
+.nav-link:hover {
+    color: #FF8C32;
+}
+
+#menu-logo {
+    width: 10%;
+}
+
+@media only screen and (max-width: 980px) {
+    .logo-and-text {
+        display: none;
+    }
+}
+
+.logo-and-text {
+    font-weight: bold;
+    position: absolute;
+    font-variant: small-caps;
+    margin: 0;
+    font-size: 180%;
+    padding-left: 15px;
+}
+/* Top Body */
+
+#top-body {
+    height: 800px;
+    text-align: center;
+    color: #EEEEEE;
+    text-shadow: 10px 10px 20px rgb(0 0 0 / 50%);
+    padding-top: 450px;
+    background-image: url("images/main-pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/* About */
+
+#about-section {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.about-logo {
+    width: 100px;
+}
+
+.heading {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.about-content {
+    padding: 10px 35px 35px 35px;
+    font-size: 22px;
+}
+
+/* Content */
+
+.container-fluid {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    height: 360px;
+}
+
+.row-img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-col {
+    background-color: #FF8C32;
+}
+
+.content {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn {
+    font-weight: bold;
+    border-color: #06113C;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+}
+
+.btn:hover {
+    border: 0;
+    background-color: #06113C;
+    color: #EEEEEE;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+.fa-brands {
+    font-size: 140%;
+    padding: 10px;
+    color: #06113C;
+}
+
+.fa-brands:hover {
+    color: #FF8C32;
+}
